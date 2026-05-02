@@ -1,6 +1,6 @@
 Error:  The goal you specified requires a project to execute but there is no POM in this directory (/home/runner/work/LeNguyenQuocBinh_25021656_Week9_Bai10/LeNguyenQuocBinh_25021656_Week9_Bai10). Please verify you invoked Maven from the correct directory.
 
-Lỗi: 
-- CI pipeline không có code để build (lỗi ở file ci.yml)
+Lỗi ở file ci.yml: 
+- CI pipeline không có code để build
 - Thiếu step checkout code trước khi setup JDK và chạy Maven. Không checkout thì máy ảo không có code
 - Cách sửa: Thêm action actions/checkout vào đầu danh sách steps

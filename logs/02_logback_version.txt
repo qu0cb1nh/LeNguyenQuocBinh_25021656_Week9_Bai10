@@ -1,0 +1,6 @@
+Error:  Failed to execute goal on project shipping-app: Could not resolve dependencies for project com.lab:shipping-app:jar:1.0-SNAPSHOT
+Error:  dependency: ch.qos.logback:logback-classic:jar:9.9.9 (compile)
+Error:  	Could not find artifact ch.qos.logback:logback-classic:jar:9.9.9 in central (https://repo.maven.apache.org/maven2)
+
+Lỗi ở file pom.xml:
+- Phiên bản 9.9.9 của logback-classic không tồn tại
