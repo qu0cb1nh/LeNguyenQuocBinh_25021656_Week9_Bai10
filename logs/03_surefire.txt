@@ -1,0 +1,14 @@
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.lab.ShippingCalculatorTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+Lỗi ở file pom.xml:
+- Phiên bản 2.12.4 của maven surefire plugin quá cũ, chưa hỗ trợ JUnit 5
+- Khi đó, CI Pipeline sẽ báo xanh nhưng thực chất là không có test nào được chạy, rất nguy hiểm
+- Cách sửa: Sử dụng phiên bản mới hơn của surefire plugin (VD 3.2.5)

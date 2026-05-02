@@ -4,3 +4,4 @@ Error:  	Could not find artifact ch.qos.logback:logback-classic:jar:9.9.9 in cen
 
 Lỗi ở file pom.xml:
 - Phiên bản 9.9.9 của logback-classic không tồn tại
+- Cách sửa, chỉnh thành một phiên bản có thật (VD: 1.4.11)
