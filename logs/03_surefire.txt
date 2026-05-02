@@ -12,3 +12,16 @@ Lỗi ở file pom.xml:
 - Phiên bản 2.12.4 của maven surefire plugin quá cũ, chưa hỗ trợ JUnit 5
 - Khi đó, CI Pipeline sẽ báo xanh nhưng thực chất là không có test nào được chạy, rất nguy hiểm
 - Cách sửa: Sử dụng phiên bản mới hơn của surefire plugin (VD 3.2.5)
+
+Log sau khi sửa:
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.lab.ShippingCalculatorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s -- in com.lab.ShippingCalculatorTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
